@@ -15,7 +15,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 650px;
+    height: 610px;
     width: 100%;
     max-width: 1200px;
     margin-right: auto;
@@ -154,14 +154,14 @@ export const AboutLine = styled.div`
     margin-left: 600px;
     margin-right: 50px;
     border-radius: 2px;
-    margin-top: -765px;
+    margin-top: -726px;
 
     
 
     @media screen and (max-width: 768px){
     border-left: 22px solid #23A6F0;
     margin-left: 20px;
-    margin-top: -298px;
+    margin-top: -268px;
     height: 180px;
     }
 `

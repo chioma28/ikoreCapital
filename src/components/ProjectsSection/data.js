@@ -1,0 +1,26 @@
+export const projectPage = {
+    id: 'project',
+    heading: 'Projects we have invested in till date',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' ,
+    img1: require('../../images/tractrac.png'),
+    img2: require('../../images/vendrrs.png'),
+    img3: require('../../images/ikore.png'),
+    text1: "EDTECH",
+    text2: "HEALTHTECH",
+    text3: "SPORA INVESTMENT",
+    color1: '#0D61AF',
+    color2: '#0EA337' ,
+    color3: '#04ACF4' ,
+    font1: '19px',
+    margin1: '0',
+    margin2: '4px',
+    margin3: '-7px',
+    margin4: '-6px',
+    font2: '14.4px',
+    font3: '14px',
+    width2: '50px' ,
+    height2: '35px',
+    width3: '90px',
+    height3: '80px'
+    
+}

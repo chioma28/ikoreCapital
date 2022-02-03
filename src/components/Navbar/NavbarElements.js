@@ -4,10 +4,10 @@ import { Link as LinkS} from 'react-scroll';
 import { MdArrowForward} from 'react-icons/md';
 
 export const Nav = styled.nav`
-    background: #335e80;
+    background: rgba(29, 56, 77, 1);
     height: 70px;
     font-family: inter;
-    margin-top: -10px; 
+    margin-top: -9px; 
     margin-left: -9px;
     margin-right: -9px;
     display: flex;
