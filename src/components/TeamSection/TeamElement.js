@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link as LinkS} from 'react-scroll';
+import { Link as LinkR} from 'react-router-dom'
 
 
 export const TeamContainer = styled.div`
@@ -7,14 +7,10 @@ export const TeamContainer = styled.div`
     background: #fff;
 
 
-
-    @media screen and (max-width: 768px){
-        margin: auto;
-    }
 `
 export const TeamWrapper = styled.div`
     z-index: 1;
-    height: 860px;
+    height: 790px;
     width: 100%;
     max-width: 1440px;
     margin-right: auto;
@@ -24,16 +20,20 @@ export const TeamWrapper = styled.div`
     font-family: 'Inter'
 
     @media screen and (max-width: 768px){
-    
+        height: 835px;
     }
 `
 export const TextWrapper = styled.div`
    max-width: 1200px;
-   padding-top: 50px;
+   padding-top: 70px;
    padding-bottom: 50px;
    font-family: 'Padauk' ;
 
 
+   @media screen and (max-width: 768px){
+    padding-top: 10px
+
+}
 
 `
 
@@ -92,7 +92,7 @@ export const TeamGroup = styled.div`
 
     @media screen and (max-width: 768px){
     max-width: 400px;
-    margin-top: -40px;
+    margin-top: -50px;
     margin-left: 25px;
     grid-template-columns: 1fr 1fr  ;
 `
@@ -102,11 +102,11 @@ export const Teams = styled.div`
     height: 180px;
     text-align: center;
     align-items: center;
-    padding: 14px 10px;
+    padding: 16px 10px;
 
     @media screen and (max-width: 768px){
         width: 200px;
-        height: 170px;
+        height: 145px;
     }
 `
 
@@ -145,12 +145,13 @@ export const TeamIcons = styled.div`
     }
 `
 
-export const Icon = styled(LinkS)`
+export const Icon = styled(LinkR)`
     margin-right: 8px;
     transform: translate(-100%, 60%);
     font-size: 16.5px;
     cursor: pointer;
     color: #333;
+    pointer: cursor;
 `
 
 

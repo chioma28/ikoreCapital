@@ -14,9 +14,9 @@ import {
     
 } from './HeroElements';
 
-const HeroSection= () => {
+const HeroSection= ({id}) => {
     return (
-        <HeroContainer > 
+        <HeroContainer id={id}> 
             <HeroBg >
                 <ImageBg style={{ backgroundImage: `url(${Image})`}} />
             </HeroBg>

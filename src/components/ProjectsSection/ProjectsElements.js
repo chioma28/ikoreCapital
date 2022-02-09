@@ -2,19 +2,14 @@ import styled from 'styled-components';
 
 export const ProjectsContainer = styled.div`
     color: #18191F;
-    background: #ECEEF7;
-
-
-
-    @media screen and (max-width: 768px){
-        margin: auto;
-    }
+    background: #f5f6fa;;
+    margin-right: -10px;
+    margin-left: -10px;
 `
 export const ProjectsWrapper = styled.div`
     z-index: 1;
-    height: 500px;
+    height: 380px;
     width: 100%;
-    max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
@@ -93,7 +88,7 @@ export const CompanyWrapper = styled.div`
     @media screen and (max-width: 768px){
     max-width: 400px;
     margin-top: -40px;
-    margin-left: 25px;
+    margin-left: 35px;
     grid-template-columns: 1fr 1fr 1fr ;
 `
 
@@ -118,20 +113,21 @@ export const CompanyItem1 = styled.div`
     grid-column-start: 2;
     grid-column-end:2;
     box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+    cursor: pointer;
 `
 
-export const CompanyT = styled.h2`
+export const CompanyT = styled.h1`
     font-family: 'Padauk' ;
     font-weight: 700;
     font-style: bolder;
     font-size: 20px;
     text-align: center;
+    text-decoration: none;
     width: 80px;
+    cursor: pointer;
 `
 export const CompanyI = styled.img`
     width: 80px;
     max-height: 45px;
-
-    
-    
+    cursor: pointer;
 `

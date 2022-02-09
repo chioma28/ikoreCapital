@@ -9,17 +9,17 @@ import {
     InputBox,
     SubmitButton
 } from './ComingElements';
-const ComingSection = ({ heading, description ,placeholder}) => {
+const ComingSection = ({id, heading, description ,placeholder, type}) => {
     return (
         <>
-           <ComingContainer>
+           <ComingContainer id={id}>
                <ComingWrapper>
                    <TextWrapper>
                        <Heading>{heading}</Heading>
                        <Description>{description}</Description>
                    </TextWrapper>
                    <FormContainer>
-                       <InputBox placeholder={placeholder}/>
+                       <InputBox placeholder={placeholder} type={type} autoFocus={true}/>
                        <SubmitButton to="/submit">Submit</SubmitButton>
                    </FormContainer>
                </ComingWrapper>

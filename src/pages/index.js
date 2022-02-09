@@ -10,6 +10,9 @@ import TeamSection from '../components/TeamSection';
 import { teamPage } from '../components/TeamSection/data';
 import ComingSection from '../components/ComingSection';
 import { comingPage } from '../components/ComingSection/data';
+import FooterSection from '../components/FooterSection';
+import { footerPage } from '../components/FooterSection/data';
+import { heroPage } from '../components/HeroSection/data';
 
 
 
@@ -26,12 +29,12 @@ const Home = () => {
         <>
         <Sidebar isOpen={isOpen} toggle={toggle} />
         <Navbar toggle={toggle} />
-        <HeroSection />
+        <HeroSection {...heroPage} />
         <AboutSection {...aboutPage} />
         <ProjectsSection {...projectPage} />
         <TeamSection {...teamPage} />
         <ComingSection {...comingPage} />
-         
+         <FooterSection {...footerPage} />
         </>
     )
 };

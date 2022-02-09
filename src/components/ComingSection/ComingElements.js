@@ -2,17 +2,13 @@ import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 
 export const ComingContainer = styled.div`
-    background: #ECEEF7;
-
-
-
-    @media screen and (max-width: 768px){
-        margin: auto;
-    }
+    background: #f5f6fa;
+    margin-left: -10px;
+    margin-right: -10px;
 `
 export const ComingWrapper = styled.div`
     z-index: 1;
-    height: 396px;
+    height: 336px;
     width: 100%;
     max-width: 1440px;
     margin-right: auto;
@@ -44,14 +40,14 @@ export const Heading = styled.h1`
     font-size: 50px;
     padding: 0 10px;
     color: #b90606;
-    word-spacing: -9px;
+    word-spacing: -15px;
     
    
     
 
     @media screen and (max-width: 768px){
         font-size: 35px;
-        word-spacing: -10px;
+        word-spacing: -12px;
         margin-right: 35px;
         margin-left: auto;
     }
@@ -61,12 +57,13 @@ export const Description = styled.p`
     color: #333;
     max-width: 1200px;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 50;
     text-align: center;
     font-size: 25px;
     padding: 0 15px;
     padding-bottom: 10px;
     margin-top: -35px;
+    word-spacing: -3.5px;
 
 
     @media screen and (max-width: 768px){
@@ -74,6 +71,7 @@ export const Description = styled.p`
         margin-right: 50px;
         padding: 0px 10px;
         margin-top: -20px;
+        word-spacing: -3.5px;
         
     }
 `
@@ -83,7 +81,7 @@ export const FormContainer = styled.form`
     margin-top: -60px;
     align-items: center;
     justify-content: center;
-    margin-right: 30px;
+    margin-right: 80px;
 
     @media screen and (max-width: 768px){
         margin-top: -30px;
@@ -94,8 +92,8 @@ export const FormContainer = styled.form`
 
 
 export const InputBox = styled.input`
-    width: 300px;
-    height: 27px;
+    width: 380px;
+    height: 25px;
     color: #AAB0B7;
     font-size: 11px;
     background: #fff;
@@ -106,12 +104,15 @@ export const InputBox = styled.input`
     border: none;
 
     &:focus{
-        border: solid 2px #23A6F0;
-        
+        outline: none;
+        border: 1px #23A6F0 solid;
+        color: #000;
+        font-size: 12px;
+        box-shadow: 0px 0px 2px #23A6F0;
     }
 
     @media screen and (max-width: 768px){
-        width: 200px;
+        width: 250px;
         height: 20px;
     }
 
@@ -126,8 +127,8 @@ border-radius: 3.84px;
 padding: 14px 19px;
 font-size: 14px;
 font-family: 'Inter';
-width: 80px;
-height: 17px;
+width: 130px;
+height: 16px;
 outline: none;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
@@ -135,13 +136,14 @@ text-decoration: none;
 
 &:hover{
     transition: all 0.2s ease-in-out;
-    background: #04ACF4;
+    background: #00BFFF;
+    font-weight: 530;
     color: #fff;
     
 }
 
 @media screen and (max-width: 768px){
     height: 12px;
-    width: 50px;
+    width: 70px;
 }
 `;

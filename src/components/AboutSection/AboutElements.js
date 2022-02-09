@@ -15,17 +15,18 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 610px;
+    height: 370px;
     width: 100%;
     max-width: 1200px;
     margin-right: auto;
-    margin-top: 90px;
+    margin-top: 110px;
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
 
     @media screen and (max-width: 768px){
-        margin-top: 50px;
+        margin-top: 65px;
+        height: 630px;
     }
 `
 
@@ -154,14 +155,14 @@ export const AboutLine = styled.div`
     margin-left: 600px;
     margin-right: 50px;
     border-radius: 2px;
-    margin-top: -726px;
+    margin-top: -498px;
 
     
 
     @media screen and (max-width: 768px){
     border-left: 22px solid #23A6F0;
     margin-left: 20px;
-    margin-top: -268px;
+    margin-top: -287px;
     height: 180px;
     }
 `

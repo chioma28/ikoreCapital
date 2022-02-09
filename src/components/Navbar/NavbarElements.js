@@ -4,12 +4,12 @@ import { Link as LinkS} from 'react-scroll';
 import { MdArrowForward} from 'react-icons/md';
 
 export const Nav = styled.nav`
-    background: rgba(29, 56, 77, 1);
+    background: ${({ scrollNav }) => ( scrollNav ? 'rgba(29, 56, 77, 1)' : 'transparent')};
     height: 70px;
     font-family: inter;
-    margin-top: -9px; 
-    margin-left: -9px;
-    margin-right: -9px;
+    margin-top: -80px; 
+    margin-left: -10px;
+    margin-right: -10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +18,7 @@ export const Nav = styled.nav`
     top: 0;
     z-index: 10;
 
-    @media screen and (max-width: 960px){
+    @media screen and (max-width: 768px){
         transition: 0.8s all ease;
     }
 `;
@@ -89,8 +89,9 @@ export const NavLinks = styled(LinkS)`
     cursor: pointer;
 
         &.active{
-            border-bottom: 3px solid #23A6F0;
-        }
+            color: #23A6F0;   
+            border-bottom: 3px solid #23A6F0;   
+         }
 
 `;
 export const NavButton = styled.nav`

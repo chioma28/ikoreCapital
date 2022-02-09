@@ -13,14 +13,14 @@ export const projectPage = {
     color3: '#04ACF4' ,
     font1: '19px',
     margin1: '0',
-    margin2: '4px',
+    margin2: '5px',
     margin3: '-7px',
     margin4: '-6px',
     font2: '14.4px',
     font3: '14px',
-    width2: '50px' ,
-    height2: '35px',
-    width3: '90px',
-    height3: '80px'
+    width2: '45px' ,
+    height2: '33px',
+    width3: '68px',
+    height3: '100px'
     
 }

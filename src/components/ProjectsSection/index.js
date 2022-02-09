@@ -23,23 +23,23 @@ const ProjectsSection = ({ id, heading, description, img1, img2, img3, text1, te
                         <TextDescription>{description}</TextDescription>
                     </TextWrapper>
                     <CompanyWrapper>
-                        <CompanyItem>
+                        <CompanyItem >
                             <CompanyI src={img1} />
                         </CompanyItem>
                         <CompanyItem>
-                            <CompanyT style={{ color: color1, fontSize: font1, marginTop: margin1}}>{text1}</CompanyT>
+                            <CompanyT  style={{ color: color1, fontSize: font1, marginTop: margin1}}>{text1}</CompanyT>
                         </CompanyItem>
                         <CompanyItem>
-                            <CompanyT style={{ color: color2, fontSize: font2 , marginTop: margin2}}>{text2}</CompanyT>
+                            <CompanyT  style={{ color: color2, fontSize: font2 , marginTop: margin2}}>{text2}</CompanyT>
                         </CompanyItem>
                         <CompanyItem>
-                            <CompanyI src={img2} style={{ height: height2, width: width2}} />
+                            <CompanyI  src={img2} style={{ height: height2, width: width2}} />
                         </CompanyItem>
                         <CompanyItem1 >
-                            <CompanyI src={img3} style={{ height: height3, width: width3, marginTop: margin4}} />
+                            <CompanyI  src={img3} style={{ height: height3, width: width3, marginTop: margin4}} />
                         </CompanyItem1>
                         <CompanyItem >
-                            <CompanyT style={{ color: color3, fontSize: font3, marginTop: margin3}}>{text3}</CompanyT>
+                            <CompanyT  style={{ color: color3, fontSize: font3, marginTop: margin3}}>{text3}</CompanyT>
                         </CompanyItem>
                     </CompanyWrapper>
                 </ProjectsWrapper>

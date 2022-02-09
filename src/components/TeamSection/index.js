@@ -1,6 +1,6 @@
 import React from 'react';  
 import { AiOutlineInstagram } from 'react-icons/ai';
-import { BiGlobe } from 'react-icons/bi';
+import { TiSocialDribbble } from 'react-icons/ti';
 import { IoLogoLinkedin } from 'react-icons/io';
 import{ 
     TeamContainer,
@@ -34,9 +34,9 @@ role1, role2, role3, role4, role5, role6}) => {
                            <Name>{name1}</Name>
                            <Role>{role1}</Role>
                            <TeamIcons>
-                               <Icon> <AiOutlineInstagram /> </Icon>
-                               <Icon> <BiGlobe/> </Icon>
-                               <Icon> <IoLogoLinkedin /> </Icon>
+                               <Icon to="/"> <AiOutlineInstagram /> </Icon>
+                               <Icon to="/"> <TiSocialDribbble/> </Icon>
+                               <Icon to="/"> <IoLogoLinkedin /> </Icon>
                            </TeamIcons>
                        </Teams>
                        <Teams>
@@ -44,9 +44,9 @@ role1, role2, role3, role4, role5, role6}) => {
                            <Name>{name2}</Name>
                            <Role>{role2}</Role>
                            <TeamIcons>
-                               <Icon> <AiOutlineInstagram /> </Icon>
-                               <Icon> <BiGlobe/> </Icon>
-                               <Icon> <IoLogoLinkedin /> </Icon>
+                               <Icon to="/"> <AiOutlineInstagram /> </Icon>
+                               <Icon to="/"> <TiSocialDribbble/> </Icon>
+                               <Icon to="/"> <IoLogoLinkedin /> </Icon>
                            </TeamIcons>
                        </Teams>
                        <Teams>
@@ -54,9 +54,9 @@ role1, role2, role3, role4, role5, role6}) => {
                            <Name>{name3}</Name>
                            <Role>{role3}</Role>
                            <TeamIcons>
-                               <Icon> <AiOutlineInstagram /> </Icon>
-                               <Icon> <BiGlobe/> </Icon>
-                               <Icon> <IoLogoLinkedin /> </Icon>
+                               <Icon to="/"> <AiOutlineInstagram /> </Icon>
+                               <Icon to="/"> <TiSocialDribbble/> </Icon>
+                               <Icon to="/"> <IoLogoLinkedin /> </Icon>
                            </TeamIcons>
                        </Teams>
                        <Teams>
@@ -64,9 +64,9 @@ role1, role2, role3, role4, role5, role6}) => {
                            <Name>{name4}</Name>
                            <Role>{role4}</Role>
                            <TeamIcons>
-                               <Icon> <AiOutlineInstagram /> </Icon>
-                               <Icon> <BiGlobe/> </Icon>
-                               <Icon> <IoLogoLinkedin /> </Icon>
+                               <Icon to="/"> <AiOutlineInstagram /> </Icon>
+                               <Icon to="/"> <TiSocialDribbble/> </Icon>
+                               <Icon to="/"> <IoLogoLinkedin /> </Icon>
                            </TeamIcons>
                        </Teams>
                        <Teams>
@@ -74,9 +74,9 @@ role1, role2, role3, role4, role5, role6}) => {
                            <Name>{name5}</Name>
                            <Role>{role5}</Role>
                            <TeamIcons>
-                               <Icon> <AiOutlineInstagram /> </Icon>
-                               <Icon> <BiGlobe/> </Icon>
-                               <Icon> <IoLogoLinkedin /> </Icon>
+                               <Icon to="/"> <AiOutlineInstagram /> </Icon>
+                               <Icon to="/"> <TiSocialDribbble/> </Icon>
+                               <Icon to="/"> <IoLogoLinkedin /> </Icon>
                            </TeamIcons>
                        </Teams>
                        <Teams>
@@ -84,9 +84,9 @@ role1, role2, role3, role4, role5, role6}) => {
                            <Name>{name6}</Name>
                            <Role>{role6}</Role>
                            <TeamIcons>
-                               <Icon> <AiOutlineInstagram /> </Icon>
-                               <Icon> <BiGlobe/> </Icon>
-                               <Icon> <IoLogoLinkedin /> </Icon>
+                               <Icon to="/"> <AiOutlineInstagram /> </Icon>
+                               <Icon to="/"> <TiSocialDribbble/> </Icon>
+                               <Icon to="/"> <IoLogoLinkedin /> </Icon>
                            </TeamIcons>
                        </Teams>
                    </TeamGroup>
