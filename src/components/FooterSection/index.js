@@ -1,4 +1,5 @@
 import React from 'react';
+import {animateScroll as scroll} from 'react-scroll';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { TiSocialDribbbleCircular } from 'react-icons/ti';
 import { FaYoutubeSquare, FaInstagramSquare } from 'react-icons/fa';
@@ -15,12 +16,16 @@ import {
 } from './FooterElements';
 
 const FooterSection = ( {  heading, text} ) => {
+
+    const toggleHome = () =>{
+        scroll.scrollToTop(); 
+   }
     return (
         <>
           <FooterContainer >
               <FooterWrapper>
                   <TextWrapper>
-                      <TextHeading to="/" >{heading}</TextHeading>
+                      <TextHeading to="/"  onClick={toggleHome}>{heading}</TextHeading>
                   </TextWrapper>
                   <Divider></Divider>
                   <FooterContent>
